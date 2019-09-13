@@ -1,0 +1,29 @@
+def f(a){
+	for (i in range(a)){
+		if (i < 2){
+			continue
+		}
+		
+		if (a % i == 0) {
+			break
+		}
+	}
+	if (a-1 == i) {
+		return 1
+	} else {
+		return 0
+	}
+}
+
+for (i in range(10){
+	if (i < 2) {
+		continue
+	}
+
+	if (f(i)) {
+		print("Yes\n");
+	} else {
+		print("No\n");
+	}
+}
+
