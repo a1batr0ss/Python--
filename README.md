@@ -8,4 +8,5 @@ There are many details in the program that have not been dealt with.
 
 ## Run
 `make all`
+
 `./main` or `./main src_file` (such as ./main prime.txt)
